@@ -1,0 +1,65 @@
+@ charset "UTF-8";
+<title> My Favorite Movie </title>
+link="Favorite Movie html Assignment.html"
+body {
+		background: gray; 
+		font: 100% Georgia, Times, Serif;
+	}
+	h1 {
+		font: 300% Arial, Helvetica, sans-serif;
+		color: grey;
+	}
+	h2 {
+		color: darkgreen;
+	}
+	p {
+		color: darkblue;
+	}
+	#wrapper {
+		width: 1100px; 
+		margin: 0 auto;
+		padding: 0 50px;
+		text-align: left;
+		position: relative;
+	}
+	header#mainHeader {
+		height: 185px;
+		background: url(http://www.imdb.com/title/tt0795421/?ref_=fn_al_tt_1) no-repeat 25px center;
+		padding: 0 75px 0 300px;
+		position: relative;
+		border-bottom: 2px solid #7f7f7f;
+		margin-bottom: 16px;
+	}
+	}
+	header#image {
+		height: 185px;
+		background: url: (http://english.manoramaonline.com/content/dam/mm/en/entertainment/music/images/2015/Nov/17/mamma-mia2.jpg.image.784.410.jpg) no-repeat 25px center;
+		padding: 0 75px 0 300px;
+		position: relative;
+		border-bottom: 2px solid #7f7f7f;
+		margin-bottom: 16px;
+	}
+	header#mainHeader div {
+		margin-top: 16px;
+	}
+	header#mainHeader ul {
+		list-style: none;
+		float: left;
+	}
+	header#mainHeader ul li {
+		float: left;
+	}
+	header#mainHeader ul li a {
+		font-family: Arial, Helvetica, sans-serif;
+		font size: 20px;
+		color: #000;
+		padding: 0 20px;
+		border-right: 1px solid #000;
+		text-decoration: none;
+	}
+	header#mainHeader ul li a.last {
+		border-right: none;
+	}
+	header#mainHeader ul li a:hover {
+		color: #c00000;
+	}
